@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+   background-color: #F6F5F0;
+}
+
+h1, h2, h3{
+    font-family: "Playfair Display", serif;
+
+}
+
+
+.section__one{
+    background-color: #D24B4C;
+    color: #F1E0C5;
+    text-align: center;
+    padding: 30px;
+}
+
+.section__one h1{
+    color: #fff;
+}
+
+ .navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar p{
+    margin: 0 10px;
+}
+
+/* cards */
+
+.section__two{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card__container{
+    margin-right: 10px;
+    border: solid black 2px;
+
+}
+
+.card__container--desc{
+    width: 220px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.card__container--title{
+    text-align: center;
+}
+
+
+.card__container--img{
+    width: 220px;
+    height: 250px;
+}
+
+.secondary-button{
+    background-color: #7B8D2D;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 900;
+    border: none;
+    padding: 10px 20px;
+    vertical-align: center;
+    margin: 20px 20px 0 50px;
+}
+
+.section__three{
+    background-color:#D24B4C;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.section__three--form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.section__three {
+    text-align: center;
+    padding: 20px;
+}
+
+.section__three h1{
+    margin: 2%0px;
+}
+
+.section__three--form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 8px; /* Space between each form field */
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-group input {
+    width: 40%;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+}
+
+.form-group input[type="submit"] {
+    background-color: #7B8D2D;
+    color: white;
+    cursor: pointer;
+}
